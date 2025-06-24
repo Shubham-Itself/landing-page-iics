@@ -4,78 +4,45 @@ import { Link } from 'react-router-dom';
 // Navigation data structure
 const navigationData = [
     {
-        label: "Home",
-        href: "#",
-        hasDropdown: true,
+        label: "Programs",
+        href: "#programContainer",
+        hasDropdown: false,
         dropdownItems: [
-            { label: "AI Image Generator", href: "/" },
-            { label: "AI Text Generator", href: "/index-2" },
-            { label: "AI Developers Profile", href: "/index-3" },
-            { label: "AI Chatbot", href: "/index-4" },
+            { label: "AI Image Generator", href: "/",},
+            { label: "AI Text Generator", href: "/home-two" },
+            { label: "AI Developers Profile", href: "/home-three" },
+            { label: "AI Chatbot", href: "/home-four" },
         ],
         isActive: true,
     },
     {
-        label: "About Us",
-        href: "/about",
+        label: "Why Choose Us",
+        href: "#chooseContainer",
         hasDropdown: false,
     },
     {
-        label: "Portfolio",
-        href: "#",
-        hasDropdown: true,
+        label: "About IICS",
+        href: "#aboutContainer",
+        hasDropdown: false,
         dropdownItems: [
             { label: "Portfolio", href: "/portfolio" },
             { label: "Portfolio Details", href: "/portfolio-details" },
         ],
     },
     {
-        label: "Services",
-        href: "#",
-        hasDropdown: true,
+        label: "Industry Mentors",
+        href: "#industryContainer",
+        hasDropdown: false,
         dropdownItems: [
             { label: "Services", href: "/services" },
             { label: "Services Details", href: "/services-details" },
         ],
     },
+   
     {
-        label: "Pages",
-        href: "#",
-        hasDropdown: true,
-        dropdownItems: [
-            { label: "About Us", href: "/about" },
-            { label: "Our Team", href: "/team" },
-            { label: "FAQ", href: "/faq" },
-            {
-                label: "Shop",
-                href: "#",
-                hasDropdown: true,
-                nestedDropdown: [
-                    { label: "Products List", href: "/products-list" },
-                    { label: "Products Details", href: "/single-products" },
-                    { label: "Cart", href: "/cart" },
-                    { label: "Checkout", href: "/checkout" },
-                ],
-            },
-            { label: "Gallery", href: "/gallery" },
-            { label: "Pricing", href: "/pricing" },
-            {
-                label: "Tools",
-                href: "#",
-                hasDropdown: true,
-                nestedDropdown: [
-                    { label: "404 Error Page", href: "/not-found" },
-                    { label: "Term & Condition", href: "/term-condition" },
-                    { label: "Privacy Policy", href: "/privacy-policy" },
-                    { label: "Cookie Policy", href: "/cookie-policy" },
-                ],
-            },
-        ],
-    },
-    {
-        label: "Blogs",
-        href: "#",
-        hasDropdown: true,
+        label: "Admission Process",
+        href: "#admissionContainer",
+        hasDropdown: false,
         dropdownItems: [
             { label: "Blog Standard", href: "/blog-standard" },
             { label: "Blog Grid", href: "/blog" },
@@ -84,8 +51,8 @@ const navigationData = [
         ],
     },
     {
-        label: "Contact",
-        href: "/contact",
+        label: "FAQs",
+        href: "#faqContainer",
         hasDropdown: false,
     },
 ];
@@ -115,7 +82,7 @@ const ResponsiveNavbar = () => {
         <div className="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabIndex="-1" id="navbarOffcanvas">
             <div className="offcanvas-header">
                 <Link className="logo d-inline-block" to="/">
-                    Aithm
+                   <img src="img/IICS/iics_image/logo_main_white.webp" className='w-[200px] ml-[-10px]' alt="" />
                 </Link>
                 <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -191,11 +158,10 @@ const ResponsiveNavbar = () => {
                 <div className="offcanvas-contact-info">
                     <h4>Follow On</h4>
                     <ul className="social-profile list-style">
-                        <li><a href="#"><i className='bx bxl-facebook'></i></a></li>
-                        <li><a href="#"><i className='bx bxl-instagram'></i></a></li>
-                        <li><a href="#"><i className='bx bxl-linkedin'></i></a></li>
-                        <li><a href="#"><i className='bx bxl-dribbble'></i></a></li>
-                        <li><a href="#"><i className='bx bxl-pinterest'></i></a></li>
+                        <li><a href="https://www.facebook.com/IICSIndiaorg?mibextid=ZbWKwL"><i className='bx bxl-facebook'></i></a></li>
+                        <li><a href="https://www.instagram.com/iicsindiaorg/"><i className='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://www.youtube.com/@IICSIndiaorg"><i className='bx bxl-youtube'></i></a></li>
+                     
                     </ul>
                 </div>
             </div>

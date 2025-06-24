@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-12 col-md-12">
               <div className="subscribe-area">
              <div className='py-[10px] bg-white w-fit'>
-             <img src="public/img/IICS/iics_image/main-logo-iics.png" className='w-[250px]' alt="" />
+             <img src="/img/IICS/iics_image/main-logo-iics.png" className='w-[250px]' alt="" />
              </div>
                 <p className='text-white !mt-[20px]'>The Indian Institute of Creative Skills (IICS), affiliated with NSDC Academy and operated by MESC (funded by NSDC) under MSDE, is dedicated to shaping the future of creative education.</p>
                 {/* <div className="subscribe-wrapper">
