@@ -4,7 +4,7 @@ export const campusData = [
       title: "Delhi",
       courseType: "+91 959-4949-959",
       email: "delhi@iicsindia.org",
-      icon: "img/IICS/iics_image/locations/delhi-icon.png", // Replace with actual Delhi icon path
+      icon: "/img/IICS/iics_image/delhi.png", // Replace with actual Delhi icon path
       description:
         "Indian Institute of Creative Skills\n3rd Floor, Plot No. 13A, Ring Rd, Lajpat Nagar 4, New Delhi, Delhi 110024",
     },
@@ -13,7 +13,7 @@ export const campusData = [
       title: "Bhopal",
       courseType: "+91 959-4949-959",
       email: "bhopal@iicsindia.org",
-      icon: "img/IICS/iics_image/locations/bhopal-icon.png", // Replace with actual Bhopal icon path
+      icon: "img/IICS/iics_image/bhopal.png", // Replace with actual Bhopal icon path
       description:
         "Jagran Lakecity University\nNear Kaliasoth Barrage, Chandanpura, Bhopal - 462007",
     },
@@ -22,7 +22,7 @@ export const campusData = [
       title: "Chandigarh",
       courseType: "+91 959-4949-959",
       email: "chandigarh@iicsindia.org",
-      icon: "img/IICS/iics_image/locations/chandigarh-icon.png", // Replace with actual Chandigarh icon path
+      icon: "img/IICS/iics_image/chandigarh.png", // Replace with actual Chandigarh icon path
       description:
         "CH Devi Lal Centre of Learning\n5, Madhya Marg, 28B, Sector 28, Chandigarh, 160028",
     },
@@ -31,7 +31,7 @@ export const campusData = [
       title: "Kolkata",
       courseType: "+91 959-4949-959",
       email: "kolkata@iicsindia.org",
-      icon: "img/IICS/iics_image/locations/kolkata-icon.png", // Replace with actual Kolkata icon path
+      icon: "img/IICS/iics_image/kolkata.png", // Replace with actual Kolkata icon path
       description:
         "Where Art Breathes and Stories Live,\nIn the heart of Kolkata,\nIICS is coming up.",
     },

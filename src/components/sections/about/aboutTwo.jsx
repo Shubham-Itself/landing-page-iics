@@ -46,7 +46,11 @@ const AboutTwo = () => {
                                     <p>About Us</p>
                                 </div>
                                 <h2>Indian Institute of Creative Skills</h2>
+                                
                                 <p>India’s first creative incubator dedicated to nurturing the next generation of entrepreneurs in the Media and Entertainment industry.</p>
+                                <p className='font-bold !mb-[5px]'>Launchpad for Creative Careers</p>
+                                    <p>IICS empowers individuals to become globally benchmarked creators, innovators, and industry leaders.</p>
+                                    
                                 {/* <Link className="default-btn" to="/about"> <span>About Us</span> <i className="bx bx-chevron-right" /></Link> */}
                             </div>
                         </div>
@@ -57,10 +61,12 @@ const AboutTwo = () => {
                         <div className="col-xl-6 col-md-5">
                             <div className="about-content-2" data-animation="fade-down" >
                                 <div className="counter">
-                                    <p className='font-bold !mb-[5px]'>Launchpad for Creative Careers</p>
-                                    <p>IICS empowers individuals to become globally benchmarked creators, innovators, and industry leaders.</p>
-                                    <p className='font-bold !mb-[5px]'>Real-World Training for Industry-Ready Creators</p>
-                                    <p>Students learn through real-world projects, international events, and expert mentorship</p>
+                                <p className='font-bold !mb-[5px]'>Real-World Training for Industry-Ready Creators</p>
+                                <p>Students learn through real-world projects, international events, and expert mentorship</p>
+                                    <p className='font-bold !mb-[5px]'>Eligibility Criteria:</p>
+                                    <p>12th pass from any stream, UG students, or candidates with relevant experience.</p>
+                                   
+                                   
                                     <div className="row justify-content-center">
                                         <div className="col-xl-4 col-lg-4 col-sm-4 col-md-6 col-6">
                                             <div className="counter-content">

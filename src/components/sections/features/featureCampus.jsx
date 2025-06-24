@@ -1,6 +1,7 @@
 import { campusData } from '@/db/campusData'
 import React from 'react'
 import FeatureCard from './featureCard'
+import FeatureCardCampus from './featureCardCampus'
 
 const FeatureCampus = () => {
   return (
@@ -16,7 +17,7 @@ const FeatureCampus = () => {
                     {
                         campusData.map((feature, index) => (
                             <div key={feature.id} className="col-xl-3 col-lg-6 col-sm-6">
-                                <FeatureCard feature={feature} index={index} />
+                                <FeatureCardCampus feature={feature} index={index} />
                             </div>
                         ))
                     }

@@ -15,6 +15,9 @@ const FeatureCard = ({ feature, index }) => {
             </div>
             <h6>{feature.title}</h6>
             <p>{feature.description}</p>
+            <p className='!mb-[5px]'><strong >Degree Offered By:</strong> Jain Online</p>
+            <p><strong >Batch Start Date:</strong> 31st July 2025</p>
+
         </div>
     )
 }
