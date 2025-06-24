@@ -1,0 +1,58 @@
+export const featuresData = [
+    {
+      id: 1,
+      title: "Events & Experiential Management",
+      courseType:'Degree Course',
+      icon: "img/IICS/iics_image/eventlogo.png",
+      description: "Learn to design expereinces and promote events through social media and digital campaigns.",
+    },
+    {
+      id: 2,
+      courseType:'Degree Course',
+      title: "Animation & Game Development",
+      icon: "img/IICS/iics_image/course_logo/console.png",
+      description: "Learn to animate, design, and build game through studio-based training and industry experience.",
+    },
+    {
+      id: 3,
+      courseType:'Degree Course',
+      title: "Digital Content Creation & Media Management",
+      icon: "img/IICS/iics_image/course_logo/digital-content-creation.png",
+      description: "Learn to shoot, edit, and manage content while building your brand across digital platforms.",
+    },
+    {
+      id: 4,
+      courseType:'Degree Course',
+      title: "Sound Design & Music Video Production",
+      icon: "img/IICS/iics_image/course_logo/sound.png",
+      description: "Learn to create compelling music videos, and master audio tools and music tech.",
+    },
+    {
+      id: 5,
+      courseType:'Certificate Course',
+      title: "Costume Designing",
+      icon: "img/IICS/iics_image/course_logo/costume.png",
+      description: "Learn to design iconic costumes for film, theatre, and fashion using fabric, styling, history, and AI-powered techniques.",
+    },
+    {
+      id: 6,
+      courseType:'Certificate Course',
+      title: "Makeup & Prosthetics",
+      icon: "img/IICS/iics_image/course_logo/make-up.png",
+      description: "Learn to create stunning looks for film and fashion with hands-on training in makeup, hair, and prosthetics.",
+    },
+    {
+      id: 7,
+      courseType:'Certificate Course',
+      title: "Digital PR & Journalism",
+      icon: "img/IICS/iics_image/course_logo/newspaper.png",
+      description: "Learn to craft powerful stories, build public image, and navigate the fast-paced world of media and journalism.",
+    },
+    {
+      id: 8,
+      courseType:'Certificate Course',
+      title: "Visual and Communication Design",
+      icon: "img/IICS/iics_image/course_logo/digital-content-creation.png",
+      description: "Learn to shoot, edit, and manage content while building your brand across digital platforms.",
+    },
+  ];
